@@ -8,11 +8,16 @@
         <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>retail-common</module>
+    </modules>
+
     <groupId>com.myzzb</groupId>
     <artifactId>retail</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>retail</name>
-    <description>Demo project for Spring Boot</description>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
 
 
     <properties>
@@ -37,8 +42,6 @@
         <aliyun-oss.version>2.5.0</aliyun-oss.version>
         <logstash-logback.version>5.3</logstash-logback.version>
         <minio.version>7.1.0</minio.version>
-        <mall-common.version>1.0-SNAPSHOT</mall-common.version>
-        <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
         <mall-security.version>1.0-SNAPSHOT</mall-security.version>
     </properties>
 
@@ -73,8 +76,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-
             <!--MyBatis分页插件starter-->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
