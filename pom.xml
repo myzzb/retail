@@ -11,6 +11,7 @@
 
     <modules>
         <module>retail-common</module>
+        <module>retail-mbg</module>
     </modules>
 
     <groupId>com.myzzb</groupId>
